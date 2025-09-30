@@ -58,4 +58,5 @@ Complete Exercise 4 in the space below:
 
 
 
+
 console.log('Exercise 4 result:', favFood);
