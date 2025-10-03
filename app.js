@@ -313,6 +313,12 @@ Hint: Be sure to declare and initialize the total variable before the iterations
 Complete Exercise 15 in the space below:
 */
 
+let total = 0;
 
+for (const subArray of numArrays) {
+  for (const value of subArray) {
+    total += value;
+  }
+}
 
 console.log('Exercise 15 result:\n', total);
